@@ -1,3 +1,51 @@
 /* 
     General Styles
 */
+.logo{
+    font-family: "Silkscreen", sans-serif;
+    background: linear-gradient(1.25turn ,#0c1e68, #32119c);
+}
+.footer{
+    font-family: "Lobster", sans-serif;
+    height: 90px;
+    color: antiquewhite;
+}
+body{
+    background: linear-gradient(#16035c, rgb(0, 0, 0))fixed no-repeat;
+}
+.navbar{
+    background: linear-gradient(1.25turn ,#0f0d64, #0b0744);
+}
+.wholecard{
+    background: linear-gradient(217deg, rgba(0, 0, 0, 0.8), rgba(255,0,0,0)),            
+                linear-gradient(127deg, rgba(26, 11, 155, 0.8), rgba(0,255,0,0));
+    overflow: auto !important;
+    margin-left: 70px;
+    min-width: 300px;
+}
+.list-group-item{
+    background: linear-gradient(217deg, rgba(59, 53, 145, 0.952), rgba(255,0,0,0)),            
+                linear-gradient(127deg, rgba(15, 8, 78, 0.664), rgba(0,255,0,0))
+}
+li{
+    font-family: "Silkscreen", sans-serif;
+}
+#card-general{
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+.description{
+    font-family: "Lobster", sans-serif;
+}
+.cardTitle{
+    max-height: 5rem;
+}
+.cardFooter{
+    max-height: 5rem;
+}
+.cardDivVehicle{
+    max-height: 22rem;
+}
+.cardDivPlanet{
+    max-height: 29rem;
+}
